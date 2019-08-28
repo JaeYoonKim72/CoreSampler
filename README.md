@@ -1,4 +1,4 @@
-# CoreSampler
+# CoreSampler: core samples/subset selection from large genotype datasets
 
 CoreSampler is a modified version of GenoCore, which improves on the limitations of GenoCore where the user is unable to specify the number of samples to extract.
 
