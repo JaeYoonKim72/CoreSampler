@@ -13,6 +13,8 @@ Source code was written by Jae-Yoon Kim using Python language and supported on w
 
 The algorithm schematic of "CoreSet", the main submodule, is as follows.
 
+![그림6](https://user-images.githubusercontent.com/49300659/63860495-34f97180-c9e4-11e9-873d-3f5c69b9ea1c.png)
+
 
 # Requirement
 
