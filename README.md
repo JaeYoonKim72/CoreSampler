@@ -28,6 +28,11 @@ It also works in python 2.0, but python 3.0 is recommended for handling a large 
 jaeyoonkim72@gmail.com
 
 
+# License
+
+CoreSampler is registered with the Korean Copyright Commission under accession umber C-2017-024343.
+
+
 # Citation
 
 Jeong S, Kim JY, Jeong SC, Kang ST, Moon JK, et al. (2017) GenoCore: A simple and fast algorithm for core subset selection from large genotype datasets. PLOS ONE 12(7): e0181420. https://doi.org/10.1371/journal.pone.0181420
