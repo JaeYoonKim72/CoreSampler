@@ -19,6 +19,7 @@ The algorithm schematic of "CoreSet", the main submodule, is as follows.
 # Requirement
 
 The CoreSampler requires python 3.0 and numpy library.
+
 It also works in python 2.0, but python 3.0 is recommended for handling a large data set.
 
 
