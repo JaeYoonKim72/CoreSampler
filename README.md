@@ -41,7 +41,10 @@ The "VCFtoCSV" submodule converts a VCF file into a CSV file for CoreSampler. Th
 
 Usage: python run_CoreSampler.py VCFtoCSV -i [VCF file] -o [Output name] -p [Y or N (phased)] -g [Y or N (gziped)]
 
-Example: python run_CoreSampler.py VCFtoCSV -i ExampleData/Test_420sample.vcf.gz -o ExampleData/Test_420sample.csv -p Y -g Y
+    Example: python run_CoreSampler.py VCFtoCSV -i ExampleData/Test_420sample.vcf.gz \
+                                                -o ExampleData/Test_420sample.csv \
+                                                -p Y \
+                                                -g Y
 
 ![VCFtoCSV](https://user-images.githubusercontent.com/49300659/63917251-2e670a80-ca75-11e9-8bd6-9d3dd93e5222.png)
 
@@ -54,7 +57,11 @@ The output files are core-sample-list, core-sample-csv and core-sample-coverage 
 
 Usage: python run_CoreSampler.py CoreSampler -i [CSV file] -p [Preset txt] -n [The number of Sample set] -m [MAF rate] -o [Output name]
 
-Example: python run_CoreSampler.py CoreSampler -i ExampleData/Test_420sample.csv -p ExampleData/Preset.txt -n 30 -m 0.05 -o ExampleData/TestCoreSet
+    Example: python run_CoreSampler.py CoreSampler -i ExampleData/Test_420sample.csv \
+                                                   -p ExampleData/Preset.txt \ #It can be omitted.
+                                                   -n 30 \
+                                                   -m 0.05 \
+                                                   -o ExampleData/TestCoreSet
 
 ![CoreSampler](https://user-images.githubusercontent.com/49300659/63917265-3626af00-ca75-11e9-9645-59a2395a33ba.png)
 
@@ -63,7 +70,10 @@ The "SelectVCF" submodule extract a core-set VCF file, using the core-sample-lis
 
 Usage: python run_CoreSampler.py SelectVCF -i [VCF file] -g [Y or N (gziped)] -s [Sample list] -o [Output name]
 
-Example: python run_CoreSampler.py SelectVCF -i ExampleData/Test_420sample.vcf.gz -g Y -s ExampleData/TestCoreSet_CoreSample.list.txt -o ExampleData/TestCoreSet_CoreSampler.vcf
+    Example: python run_CoreSampler.py SelectVCF -i ExampleData/Test_420sample.vcf.gz \
+                                                 -g Y \
+                                                 -s ExampleData/TestCoreSet_CoreSample.list.txt \
+                                                 -o ExampleData/TestCoreSet_CoreSampler.vcf
 
 ![SelectVCF](https://user-images.githubusercontent.com/49300659/63917279-3de65380-ca75-11e9-9d6c-679830e4676b.png)
 
